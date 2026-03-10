@@ -8,6 +8,12 @@
   <name>lesson4 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+      <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <version>1.18.42</version>
+          <scope>compile</scope>
+      </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

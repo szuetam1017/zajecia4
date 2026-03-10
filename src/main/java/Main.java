@@ -9,11 +9,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        User user1 = new User("test@mail.com");
+        User user2 = new User("test@mail.com");
 
-        User u1 = new User("test@mail.com");
-        User u2 = new User("test@mail.com");
-
-        System.out.println(u1 == u2);
-
+        System.out.println(user1 == user2);
     }
 }
